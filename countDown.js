@@ -16,7 +16,7 @@ function showHappy() {
    document.getElementById('clockdiv').style.display = "none";
 }
 function turnRed() {
-	document.getElementById('secondsid').style.color = "magenta";
+	document.getElementById('secondsid').style.color = "red";
 }
 function InitializeClock(id, endTime){
 	var clock = document.getElementById(id);
